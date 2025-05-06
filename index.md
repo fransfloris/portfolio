@@ -1,6 +1,6 @@
 # Bienvenue sur mon Portfolio Data Analyse 📊
 
-![Votre Nom](votre_photo.jpg)
+![MAFFO FRANS FLORIS](votre_photo.jpg)
 
 ## À propos de moi 👋
 
@@ -38,6 +38,7 @@ Ce rapport Power BI a été créé pour analyser la structure des coûts d'une e
     *   Mettre en place un plan d'optimisation des coûts pour les centres de coûts dont les dépenses augmentent de manière significative.
     *   Réaliser un audit des dépenses de maintenance pour identifier les gaspillages et les inefficacités.
 
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_cg1)
 [Lien vers la version interactive (si Power BI Embedded ou outil tiers)]
 
 ### Projet 2 : Analyse Financière et Commerciale des Ventes 📊
@@ -62,6 +63,7 @@ Ce rapport Power BI a été conçu pour analyser l'historique des ventes de prod
     *   Concentrer les efforts de vente et de marketing sur le segment Small Business.
     *   Optimiser la politique de remises pour maximiser le profit sans sacrifier les volumes de vente.
 
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_financier)
 [Lien vers la version interactive (si Power BI Embedded ou outil tiers)]
 
 ### Projet 3 : Analyse de la Gestion de Flotte 🚚
@@ -84,6 +86,7 @@ Ce rapport Power BI a été créé pour suivre et optimiser la gestion de la flo
     *   Mettre en place un programme de formation à l'éco-conduite pour réduire la consommation de carburant.
     *   Négocier des contrats de maintenance préventive pour réduire les coûts de maintenance corrective.
 
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_logistique)
 [Lien vers la version interactive (si Power BI Embedded ou outil tiers)]
 
 ### Projet 4 : Analyse des Ventes de Pizzas en Ligne 🍕
@@ -110,6 +113,7 @@ Ce rapport Power BI a été conçu pour analyser les données de ventes de pizza
     *   Personnaliser les offres en fonction des préférences des clients et de leur historique de commandes.
     *   Proposer des offres groupées (pizza + boisson + dessert) pour encourager les clients à commander des pizzas de grande taille.
 
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_vente_pizza)
 [Lien vers la version interactive (si Power BI Embedded ou outil tiers)]
 
 ## Projets Python 🐍
@@ -132,9 +136,7 @@ Ce projet Python a été réalisé pour segmenter la clientèle d'un centre comm
     *   Proposer des offres personnalisées aux clients à fort potentiel.
     *   Mettre en place des programmes de fidélité pour les clients les plus fidèles.
 
-[Lien vers le dépôt GitHub](lien_vers_github_mall_customers)
-[Lien vers le notebook Google Colab](lien_vers_colab_mall_customers)
-[Lien vers la vidéo de démonstration](lien_vers_video_mall_customers)
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Segmentation_clients)
 
 ### Projet 2 : Détection des Fraudes par Carte de Crédit 💳
 
@@ -154,9 +156,7 @@ Ce projet Python a été réalisé pour détecter les transactions frauduleuses 
     *   Enquêter sur les transactions signalées comme suspectes.
     *   Surveiller les performances du modèle et le ré-entraîner si nécessaire.
 
-[Lien vers le dépôt GitHub](lien_vers_github_fraud)
-[Lien vers le notebook Google Colab](lien_vers_colab_fraud)
-[Lien vers la vidéo de démonstration](lien_vers_video_fraud)
+[Lien vers le dépôt GitHub](https://github.com/fransfloris/portfolio/tree/my-pages/Detection_fraude)
 
 ## Contactez-moi 📧
 
