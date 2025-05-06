@@ -19,7 +19,7 @@ Mon objectif : rejoindre une entreprise innovante où je pourrai développer mes
 
 ### Projet 1 : Analyse de la Comptabilité Générale 🏢
 
-![Capture d'écran du rapport Power BI](powerbi_comptabilite.png)
+![Capture d'écran du rapport Power BI](Rapport_cg1/pbix1_cg.PNG)
 
 Ce rapport Power BI a été créé pour analyser la structure des coûts d'une entreprise, identifier les principaux centres de coûts et suivre leur évolution au fil du temps.
 
@@ -42,7 +42,7 @@ Ce rapport Power BI a été créé pour analyser la structure des coûts d'une e
 
 ### Projet 2 : Analyse Financière et Commerciale des Ventes 📊
 
-![Capture d'écran du rapport Power BI](powerbi_ventes.png)
+![Capture d'écran du rapport Power BI](Rapport_financier/pbix2_rf.PNG)
 
 Ce rapport Power BI a été conçu pour analyser l'historique des ventes de produits en fonction de différentes dimensions (catégories, pays, segments) et analyser le profit.
 
@@ -66,7 +66,7 @@ Ce rapport Power BI a été conçu pour analyser l'historique des ventes de prod
 
 ### Projet 3 : Analyse de la Gestion de Flotte 🚚
 
-![Capture d'écran du rapport Power BI](powerbi_flotte.png)
+![Capture d'écran du rapport Power BI](Rapport_logistique/pbix3_gf.PNG)
 
 Ce rapport Power BI a été créé pour suivre et optimiser la gestion de la flotte de véhicules d'une entreprise, en analysant les coûts, la consommation de carburant et la maintenance.
 
@@ -88,7 +88,9 @@ Ce rapport Power BI a été créé pour suivre et optimiser la gestion de la flo
 
 ### Projet 4 : Analyse des Ventes de Pizzas en Ligne 🍕
 
-![Capture d'écran du rapport Power BI](powerbi_pizzas.png)
+![Capture d'écran du rapport Power BI](Rapport_vente_pizza/pbix4_pizza.PNG)
+
+![Capture d'écran du rapport Power BI](Rapport_vente_pizza/pbix4_pizza1.PNG)
 
 Ce rapport Power BI a été conçu pour analyser les données de ventes de pizzas *en ligne* afin d'identifier les produits les plus populaires, d'optimiser l'expérience utilisateur, d'améliorer le marketing numérique et d'augmenter les revenus.
 
@@ -114,7 +116,7 @@ Ce rapport Power BI a été conçu pour analyser les données de ventes de pizza
 
 ### Projet 1 : Segmentation de la Clientèle des Centres Commerciaux (Mall Customers) 🛍️
 
-![Capture d'écran du notebook Jupyter](mall_customers_clustering.png)
+![Capture d'écran du notebook Jupyter](Segmentation_clients/segmentation_ML.PNG)
 
 Ce projet Python a été réalisé pour segmenter la clientèle d'un centre commercial en utilisant l'algorithme de clustering K-Means.
 
@@ -136,7 +138,7 @@ Ce projet Python a été réalisé pour segmenter la clientèle d'un centre comm
 
 ### Projet 2 : Détection des Fraudes par Carte de Crédit 💳
 
-![Capture d'écran du notebook Jupyter](credit_card_fraud_detection.png)
+![Capture d'écran du notebook Jupyter](Detection_fraude/detection_ML.PNG)
 
 Ce projet Python a été réalisé pour détecter les transactions frauduleuses par carte de crédit en utilisant des techniques de machine learning.
 
