@@ -3,170 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Portfolio Data Analyse - MAFFO FRANS FLORIS</title>
     <style>
-        /* Styles CSS pour un rendu moderne */
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
         }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            position: relative;
+        h1, h2 {
+            color: #2c3e50;
         }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-        }
-
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 0.5rem 0;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            margin: 0 0.5rem;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #555;
-        }
-
-        section {
-            padding: 2rem;
-            margin: 1rem;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section h2 {
-            border-bottom: 3px solid #333;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-        }
-
-        .project {
-            border: 1px solid #ddd;
-            padding: 1rem;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-            transition: transform 0.3s ease;
-        }
-
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .project img {
-            width: 100%;
+        img {
+            max-width: 100%;
             height: auto;
             border-radius: 5px;
-            margin-bottom: 0.5rem;
         }
-
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .project:last-child {
+            border-bottom: none;
+        }
+        .contact-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
         footer {
+            margin-top: 40px;
             text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
-
-            nav a {
-                padding: 0.3rem 0.6rem;
-                margin: 0 0.3rem;
-            }
-
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
+            color: #7f8c8d;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mon Portfolio</h1>
-    </header>
+    <h1>Bienvenue sur mon Portfolio Data Analyse 📊</h1>
 
-    <nav>
-        <a href="#about">À propos</a> |
-        <a href="#projects">Projets</a> |
-        <a href="#contact">Contact</a>
-    </nav>
+    <img src="votre_photo.jpg" alt="MAFFO FRANS FLORIS">
 
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>
-            Je suis un développeur passionné avec une expérience dans divers domaines tels que le développement web, les applications mobiles et l'intelligence artificielle. J'aime créer des solutions innovantes et résoudre des problèmes complexes.
-        </p>
-    </section>
+    <h2>À propos de moi 👋</h2>
+    <p>Je suis <strong>MAFFO FRANS FLORIS</strong>, analyste de données en devenir. Diplômée en conception et développement de réseaux internet, j'ai débuté dans le développement logiciel avant de me passionner pour l'analyse de données. Forte d'une solide base technique, je me réoriente avec détermination vers un secteur où ma curiosité, ma rigueur et mes compétences analytiques transformeront les données en leviers stratégiques pour l'entreprise. En pleine reconversion professionnelle, je me consacre à des projets concrets pour maîtriser les outils et techniques de l'analyse de données.</p>
+    <p>Mon objectif : rejoindre une entreprise innovante où je pourrai développer mes compétences, contribuer à des projets ambitieux qui amélioreront la prise de décision et optimiseront les processus.</p>
 
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="projects-grid">
-            <div class="project">
-                <img src="image_projet1.jpg" alt="Projet 1">
-                <h3>Projet 1</h3>
-                <p>Description du projet 1. Ce projet a été réalisé avec les technologies suivantes : HTML, CSS, JavaScript.</p>
-                <a href="#">Voir le projet</a>
-            </div>
-            <div class="project">
-                <img src="image_projet2.jpg" alt="Projet 2">
-                <h3>Projet 2</h3>
-                <p>Description du projet 2. Ce projet a été réalisé avec les technologies suivantes : React, Node.js, Express.</p>
-                <a href="#">Voir le projet</a>
-            </div>
-            <div class="project">
-                <img src="image_projet3.jpg" alt="Projet 3">
-                <h3>Projet 3</h3>
-                <p>Description du projet 3. Ce projet a été réalisé avec les technologies suivantes : Python, Django, PostgreSQL.</p>
-                <a href="#">Voir le projet</a>
-            </div>
-        </div>
-    </section>
+    <h2>Compétences 🛠️</h2>
+    <ul>
+        <li><strong>Visualisation de données :</strong> Power BI, Python (Matplotlib, Seaborn)</li>
+        <li><strong>Programmation :</strong> Python (Pandas, NumPy, Scikit-learn), SQL</li>
+        <li><strong>Machine Learning :</strong> Classification (Régression Logistique, Détection de fraude), Clustering (K-Means), Prétraitement des données (StandardScaler), Évaluation de modèles (Accuracy_score)</li>
+        <li><strong>Bases de données :</strong> SQL Server, MySQL, SQLite</li>
+    </ul>
 
-    <section id="contact">
-        <h2>Contactez-moi</h2>
-        <p>
-            Vous pouvez me contacter à l'adresse suivante : <a href="mailto:monemail@example.com">monemail@example.com</a>
-        </p>
-    </section>
+    <h2>Projets Power BI 📈</h2>
+
+    <div class="project">
+        <h3>Projet 1 : Analyse de la Comptabilité Générale 🏢</h3>
+        <img src="Rapport_cg1/pbix1_cg.PNG" alt="Capture d'écran du rapport Power BI">
+        <p>Ce rapport Power BI a été créé pour analyser la structure des coûts d'une entreprise, identifier les principaux centres de coûts et suivre leur évolution au fil du temps.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Identifier les postes de dépenses les plus importants, suivre l'évolution des coûts par centre de coûts et optimiser les dépenses de l'entreprise.</li>
+            <li><strong>Sources de données :</strong> Données de comptabilité générale, incluant les centres de coûts (production, valorisation, logistique, services généraux), les filiales, les années et les codes analytiques (achat de marchandises, matières premières, fournitures, maintenance, etc.).</li>
+            <li><strong>Visualisations clés :</strong>
+                <ul>
+                    <li>Tableau de bord interactif permettant de filtrer les données par filiale et par année.</li>
+                    <li>Les différents coûts.</li>
+                    <li>Top 5 des codes analytiques les plus importants en termes de coûts.</li>
+                    <li>Courbe d'évolution des coûts par centre de coûts au fil des années.</li>
+                </ul>
+            </li>
+            <li><strong>Insights :</strong>
+                <ul>
+                    <li>Les coûts de Centre de Coût Logistique sont particulièrement élevés dans la filiale Filiale BOL.</li>
+                    <li>Le Code Analytique 110 a la somme de valeurs la plus élévée qui est de 2216780 au cours des trois dernières années.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Négocier de meilleurs tarifs avec les fournisseurs pour les codes analytiques les plus coûteux.</li>
+                    <li>Mettre en place un plan d'optimisation des coûts pour les centres de coûts dont les dépenses augmentent de manière significative.</li>
+                    <li>Réaliser un audit des dépenses de maintenance pour identifier les gaspillages et les inefficacités.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_cg1">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Projet 2 : Analyse Financière et Commerciale des Ventes 📊</h3>
+        <img src="Rapport_financier/pbix2_rf.PNG" alt="Capture d'écran du rapport Power BI">
+        <p>Ce rapport Power BI a été conçu pour analyser l'historique des ventes de produits en fonction de différentes dimensions (catégories, pays, segments) et analyser le profit.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Comprendre les performances commerciales de l'entreprise, identifier les produits et les segments les plus rentables, et optimiser les stratégies de vente et de marketing.</li>
+            <li><strong>Sources de données :</strong> Données de ventes, données de stocks.</li>
+            <li><strong>Visualisations clés :</strong>
+                <ul>
+                    <li>Tableau de bord interactif présentant les principaux indicateurs de performance (KPIs) : le nombre de transactions, les coûts de vente, le chiffre d'affaires, les ventes nettes, les quantités totales, le profit total, les remises totales, etc.</li>
+                    <li>Graphiques d'évolution du bénéfice par Mois et par Trimestre, par jour et par Année.</li>
+                    <li>Analyse du bénéfice par segment et par rabais.</li>
+                </ul>
+            </li>
+            <li><strong>Insights :</strong>
+                <ul>
+                    <li>Le segment Small Business est le plus rentable en termes de profit.</li>
+                    <li>Le pays avec le plus grand bénéfice total est ﻿Germany﻿ avec une valeur de ﻿$3 264 749﻿.</li>
+                    <li>Le pays avec le plus petit bénéfice total est ﻿France﻿ avec une valeur de ﻿$1 825 989﻿.</li>
+                    <li>Le bénéfice a un pourcentage de croissance de 88,18% à l'année 2014.</li>
+                    <li>Les remises importantes ont un impact négatif sur la marge bénéficiaire.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Concentrer les efforts de vente et de marketing sur le segment Small Business.</li>
+                    <li>Optimiser la politique de remises pour maximiser le profit sans sacrifier les volumes de vente.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_financier">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Projet 3 : Analyse de la Gestion de Flotte 🚚</h3>
+        <img src="Rapport_logistique/pbix3_gf.PNG" alt="Capture d'écran du rapport Power BI">
+        <p>Ce rapport Power BI a été créé pour suivre et optimiser la gestion de la flotte de véhicules d'une entreprise, en analysant les coûts, la consommation de carburant et la maintenance.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Réduire les coûts de gestion de la flotte, optimiser la consommation de carburant, améliorer la maintenance des véhicules et assurer la sécurité des conducteurs.</li>
+            <li><strong>Sources de données :</strong> Données de gestion de flotte, incluant les données des clients, les véhicules, les conducteurs, etc.</li>
+            <li><strong>Visualisations clés :</strong>
+                <ul>
+                    <li>Tableau de bord présentant les principaux indicateurs de performance de la flotte (KPIs) : les litres totaux consommés, le nombre de conducteurs, le nombre de kilomètres parcourus, les coûts fixes totaux, le carburant consommé et les coûts totaux de maintenance.</li>
+                    <li>Graphique d'évolution du coût de maintenance par mois.</li>
+                    <li>Tableau recapitulatif des transactions des différents conducteurs.</li>
+                </ul>
+            </li>
+            <li><strong>Insights :</strong>
+                <ul>
+                    <li>Le coût par kilomètre est plus élevé pour le conducteur Amman Vega.</li>
+                    <li>La consommation de carburant est plus importante pendant le Mois de Mai.</li>
+                    <li>Certains conducteurs ont des coûts de maintenance significativement plus élevés que les autres.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Mettre en place un programme de formation à l'éco-conduite pour réduire la consommation de carburant.</li>
+                    <li>Négocier des contrats de maintenance préventive pour réduire les coûts de maintenance corrective.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_logistique">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Projet 4 : Analyse des Ventes de Pizzas en Ligne 🍕</h3>
+        <img src="Rapport_vente_pizza/pbix4_pizza.PNG" alt="Capture d'écran du rapport Power BI">
+        <img src="Rapport_vente_pizza/pbix4_pizza1.PNG" alt="Capture d'écran du rapport Power BI">
+        <p>Ce rapport Power BI a été conçu pour analyser les données de ventes de pizzas <em>en ligne</em> afin d'identifier les produits les plus populaires, d'optimiser l'expérience utilisateur, d'améliorer le marketing numérique et d'augmenter les revenus.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Optimiser le menu en ligne, améliorer la gestion des stocks, optimiser les campagnes de marketing numérique, personnaliser l'expérience client et augmenter les revenus de la plateforme de vente en ligne.</li>
+            <li><strong>Sources de données :</strong> Données de ventes de pizzas en ligne.</li>
+            <li><strong>Visualisations clés :</strong>
+                <ul>
+                    <li>Tableau de bord présentant les principaux indicateurs de performance de la plateforme de vente en ligne (KPIs) : le revenu total, la valeur moyenne par commande, le total des pizzas vendues, le total de commandes, le nombre moyen de pizzas par commande.</li>
+                    <li>Analyse des ventes par catégorie de pizza (Classic, Supreme, Veggie...) et par taille (S, M, L, XL, XXL).</li>
+                    <li>Analyse des commandes par jour et par heure.</li>
+                    <li>Top 5 des meilleures et des pires ventes de pizzas.</li>
+                </ul>
+            </li>
+            <li><strong>Insights :</strong>
+                <ul>
+                    <li>La pizza Classic est la plus vendue en ligne, suivie de la pizza Supreme.</li>
+                    <li>Les ventes en ligne sont plus importantes le Samedi et a l'heure de 12am.</li>
+                    <li>La valeur moyenne par commande est plus élevée lorsque les clients commandent des pizzas de taille L.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Mettre en avant les pizzas les plus vendues dans le menu en ligne et les promotions.</li>
+                    <li>Personnaliser les offres en fonction des préférences des clients et de leur historique de commandes.</li>
+                    <li>Proposer des offres groupées (pizza + boisson + dessert) pour encourager les clients à commander des pizzas de grande taille.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Rapport_vente_pizza">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <h2>Projets Python 🐍</h2>
+
+    <div class="project">
+        <h3>Projet 1 : Segmentation de la Clientèle des Centres Commerciaux (Mall Customers) 🛍️</h3>
+        <img src="Segmentation_clients/segmentation_ML.PNG" alt="Capture d'écran du notebook Jupyter">
+        <p>Ce projet Python a été réalisé pour segmenter la clientèle d'un centre commercial en utilisant l'algorithme de clustering K-Means.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Identifier des groupes de clients homogènes afin d'optimiser les stratégies marketing.</li>
+            <li><strong>Sources de données :</strong> L'ensemble de données "Mall_Customers.csv" contient des informations sur les clients d'un centre commercial, telles que leur identifiant, leur âge, leur sexe, leur revenu annuel et leur score de dépenses.</li>
+            <li><strong>Algorithmes utilisés :</strong> Clustering K-Means.</li>
+            <li><strong>Résultats :</strong>
+                <ul>
+                    <li>Le clustering K-Means a permis d'identifier 05 segments de clientèle distincts.</li>
+                    <li>Le segment 02 se caractérise par un revenu annuel élevé et un score de dépenses élevé.</li>
+                    <li>Le segment 05 se caractérise par un revenu annuel faible et un score de dépenses faible.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Adapter les campagnes marketing aux caractéristiques de chaque segment de clientèle.</li>
+                    <li>Proposer des offres personnalisées aux clients à fort potentiel.</li>
+                    <li>Mettre en place des programmes de fidélité pour les clients les plus fidèles.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Segmentation_clients">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Projet 2 : Détection des Fraudes par Carte de Crédit 💳</h3>
+        <img src="Detection_fraude/detection_ML.PNG" alt="Capture d'écran du notebook Jupyter">
+        <p>Ce projet Python a été réalisé pour détecter les transactions frauduleuses par carte de crédit en utilisant des techniques de machine learning.</p>
+        <ul>
+            <li><strong>Objectif :</strong> Identifier les transactions frauduleuses afin de protéger les clients et de minimiser les pertes financières.</li>
+            <li><strong>Sources de données :</strong> L'ensemble de données contient des transactions anonymisées effectuées par carte de crédit en septembre 2013. Les caractéristiques (V1-V28) sont le résultat d'une transformation PCA. Les caractéristiques 'Time' et 'Amount' sont également incluses. La variable cible 'Class' indique si la transaction est frauduleuse (1) ou non (0).</li>
+            <li><strong>Algorithmes utilisés :</strong> Régression Logistique, précédé d'une étape de standardisation des données.</li>
+            <li><strong>Résultats :</strong>
+                <ul>
+                    <li>Nous avons obtenu 284315 transactions legales et 492 transactions frauduleuses sur les données de test.</li>
+                    <li>La segmentation du jeu de données en transactions legales et frauduleuses puis l'extraction de 492 transactions parmi les transactions legales pour constituer au mieux les données à entraîner.</li>
+                    <li>Le modèle Pipe a une précision de 0.9695431472081218 pour la détection des fraudes.</li>
+                </ul>
+            </li>
+            <li><strong>Actions recommandées :</strong>
+                <ul>
+                    <li>Implémenter le modèle de détection de fraude en temps réel.</li>
+                    <li>Enquêter sur les transactions signalées comme suspectes.</li>
+                    <li>Surveiller les performances du modèle et le ré-entraîner si nécessaire.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="https://github.com/fransfloris/portfolio/tree/my-pages/Detection_fraude">Lien vers le dépôt GitHub</a></p>
+    </div>
+
+    <h2>Contactez-moi 📧</h2>
+    <div class="contact-links">
+        <a href="mailto:fransfloris58@gmail.com">Mon Email</a>
+        <a href="www.linkedin.com/in/frans-floris">Mon LinkedIn</a>
+        <a href="https://github.com/fransfloris">Mon GitHub</a>
+    </div>
 
     <footer>
-        <p>© 2025 Mon Portfolio</p>
+        <p>© 2025 MAFFO FRANS FLORIS</p>
     </footer>
 </body>
 </html>
